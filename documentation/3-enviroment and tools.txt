@@ -1,0 +1,5 @@
+1- vs code with extensions ( bracket pair color, indent-rainbow, editorconfig, live server )
+2- Editorconfig plugin
+   - https://editorconfig.org/
+3- first code js.
+4- MDN : mozilla developer network.
