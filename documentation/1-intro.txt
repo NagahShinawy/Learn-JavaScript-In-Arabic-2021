@@ -1,0 +1,13 @@
+1 - Why is JS ?
+    - client side ( web browser )
+    - server side ( backend)
+    - make web pages interactive by implement complex components.
+    - update content dynamically (ex:  username already exist) when register to a form.
+        - ex: google drive show 'saved' while working with no user action, no refresh.
+
+    - manipulate HTML , CSS.
+    - animate media , text, create image gallery.
+    - manipulate and validate data.
+    - control multi media [ audio, video ].
+    - web browser games.
+    - mobile apps.
