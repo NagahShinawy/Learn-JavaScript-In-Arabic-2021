@@ -1,0 +1,6 @@
+1- single line comment  //
+2- multi line comment /*  something */
+
+3- why comments ?
+    - explain your code, add docs
+    - disable code to debugging
