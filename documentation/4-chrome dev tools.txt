@@ -1,0 +1,12 @@
+1- filter JS console by error, warning, info
+
+2- add element to the page
+
+    - document.write("<h1>Django for Java developers</h1>")
+
+
+3- change element style
+    - document.querySelector("h1").style.color = "red"
+
+
+4- window.close() ===> close chrome window
