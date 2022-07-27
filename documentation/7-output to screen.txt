@@ -1,0 +1,19 @@
+1- what is window ?
+
+     - The window object is a global object that has the properties pertaining (related) to the current DOM document
+
+2- examples:
+    - window.alert("Have a nice day!");
+
+
+3- what is document ?
+
+    - JavaScript Document object is an object that provides access to all HTML elements of a document.
+
+    - When an HTML document is loaded into a browser window, then it becomes a document object.
+    - The document object stores the elements of an HTML document, such as HTML, HEAD, BODY, and other HTML tags as objects.
+
+    example document.write("<h1>JS is cool!</h1>", "<h1>Learn JS</h1>")
+
+
+4- using console : console.log("Learn JS by example");

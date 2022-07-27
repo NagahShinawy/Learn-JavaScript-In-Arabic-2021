@@ -9,3 +9,6 @@ console.log(DAYS);
 //
 // };
 
+window.alert("Have a nice day!");
+document.write("<h1>JS is cool!</h1>", "<h1>Learn JS</h1>");
+console.log("Learn JS by example");
