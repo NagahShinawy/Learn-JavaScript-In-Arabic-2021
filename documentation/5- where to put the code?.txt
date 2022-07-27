@@ -1,0 +1,3 @@
+1- put your js import code at the end of the body tag to make sure all elements loaded.
+
+2- put js code at the end of the head tag but add 'window.load' to execute the code just in case of elements loaded.
