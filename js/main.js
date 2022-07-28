@@ -122,7 +122,7 @@ hi.innerHTML = "Love JS code;"
 var access = true;
 var _access = true;
 var $access = true;
-var access = false; // override
+var access = false; // redeclare to override
 var ACCESS = "Yes"
 
 if ($access) {
@@ -140,5 +140,37 @@ else {
     console.log("Access denied");
 }
 
+// ============================== var, let, const ===============================================
 
 
+var assist;
+assist = "laptop";
+console.log(assist)
+var assist = "macbook"
+
+// let allow_access = false;
+// let allow_access = true; // Uncaught SyntaxError: Identifier 'allow_access' has already been declared
+
+// const allow_access = false;
+// const allow_access = true; // Uncaught SyntaxError: Identifier 'allow_access' has already been declared
+
+// console.log(has_errors); // Uncaught ReferenceError: has_errors is not defined
+
+// console.log(style); // Uncaught ReferenceError: Cannot access 'style' before initialization
+// let style = 'css';
+
+
+// console.log(BLOOD_TYPE); // Uncaught ReferenceError: Cannot access 'BLOOD_TYPE' before initialization
+// const BLOOD_TYPE = 'A+';
+
+var company = "Google"; // global scope and added to window obj
+console.log(window.company); // any variable using var added to window obj
+
+window.company = "g00gle"
+console.log(window.company);
+
+let work = '8 Hours'; // global scope NOT added window obj
+console.log(window.work); // undefined
+
+const vacation = 'friday';
+console.log(window.vacation); // undefined

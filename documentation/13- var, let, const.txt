@@ -1,0 +1,34 @@
+1- var allow  redeclaration for variables.
+
+        var assist;
+        assist = "laptop";
+        console.log(assist)
+        var assist = "macbook"
+
+2 - let NOT allow  redeclaration for variables.
+
+    let allow_access = false;
+    let allow_access = true; // Uncaught SyntaxError: Identifier 'allow_access' has already been declared
+
+
+3- what is variable scope drama
+
+/*
+  Var
+  - Redeclare (Yes) override
+  - Access Before Declare (Undefined)
+  - Variable Scope Drama [Added To Window] ()
+  - Block Or Scope Function
+
+  Let
+  - Redeclare (No => Error)
+  - Access Before Declare (Error)
+  - Variable Scope Drama (global scope NOT added window obj)
+  - Block Or Scope Function
+
+  Const
+  - Redeclare (No => Error)
+  - Access Before Declare (Error)
+  - Variable Scope Drama (global scope NOT added window obj)
+  - Block Or Scope Function
+*/

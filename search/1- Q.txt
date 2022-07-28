@@ -1,3 +1,4 @@
 1- what is editorconfig with examples ?
 2- what is webapi ex: 'console'?
 3- How to debug ?
+4- what is variable scope drama
