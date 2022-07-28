@@ -44,3 +44,45 @@ let firstname = "John", lastname = "Smith";
 
 let info = `Full name: ${firstname} ${lastname}\nID: ${id}\nAge: ${age}`;
 console.log(info);
+
+// ============================== Data types and Operators ===============================================
+
+let name = "Eric";
+let salary = 5000;
+let bonus = 10.5
+let names = ["John", "Smith", "Leon", "Adam"];
+let userinfo = {
+    "name": "Adam",
+    "age": 23,
+    "id": 5435345
+};
+cities = ["Cairo", "Alex", "SSH"];
+console.log(typeof name);  // string
+console.log(typeof(name));  // string
+console.log(typeof salary);  // number
+console.log(typeof bonus);  // number
+console.log(typeof names);  // obj  ---> like list in python
+console.log(typeof userinfo);  // obj  ---> like dictionary in python
+console.log(typeof cities);  // obj  ---> array just like list in python
+
+console.log(userinfo.age);  // access obj data, just like python dictionary.
+console.log(userinfo.age > 18);
+
+profile = {
+    name: "John",
+    city: "Alex",
+    country: "Eg",
+    isAdult: true,
+};
+
+console.log(profile);
+console.log(profile.city);
+console.log(profile.isAdult);
+console.log(!profile.isAdult);
+console.log(typeof profile.isAdult);
+console.log(typeof null); // obj
+console.log(typeof undefined); // undefined
+
+console.log(typeof test); // undefined
+
+

@@ -1,0 +1,8 @@
+1- Data types:
+    - string ---> string
+    - int, float --> number
+    - Array ---> obj
+    - dictionary ---> obj
+    - true, false --> boolean
+    - undefined ---> undefined
+    - null ---> obj
