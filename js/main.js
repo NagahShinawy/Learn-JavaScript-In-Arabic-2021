@@ -194,3 +194,14 @@ console.log("Learn \
 JS \
 By \
 Example"); // Learn JS By Example
+
+
+// ============================== 15 - Concatenation. ====================================
+
+let love = "We Love";
+let lang = "JS!";
+
+console.log(love + lang);
+document.write(love + lang + '<br>');
+document.write(love + " " + lang);
+console.log(love, lang); // We Love JS!
