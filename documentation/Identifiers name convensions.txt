@@ -1,0 +1,6 @@
+1- what is Identifiers ?
+    - An identifier is a sequence of characters in the code that identifies a variable, function, or property
+
+2- rules of identifier
+
+3- naming conventions using camelCase

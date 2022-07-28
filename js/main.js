@@ -111,10 +111,34 @@ var start_date = "2020-01-01",
     end_date = "2022-12-31"
 
 console.log(`From '${start_date}' to '${end_date}'`);
+
+// hi html id element
 console.log(hi); // <h1 id="hi">Hello World!</h1>
 hi.innerHTML = "Love JS code;"
 
 
+// ============================== Identifiers name conventions ===============================================
+
+var access = true;
+var _access = true;
+var $access = true;
+var access = false; // override
+var ACCESS = "Yes"
+
+if ($access) {
+    console.log("Has Access");
+}
+console.log(access);
+console.log(ACCESS); // identifiers is a case-sensitive
+
+var hasAccess = false;
+
+if (hasAccess){
+    console.log("Allow Access");
+}
+else {
+    console.log("Access denied");
+}
 
 
 
