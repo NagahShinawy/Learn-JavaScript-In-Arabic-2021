@@ -85,4 +85,36 @@ console.log(typeof undefined); // undefined
 
 console.log(typeof test); // undefined
 
+// ============================== Variables ===============================================
+
+var weekend = "Friday";
+
+let UNDERAGE; // declaration
+UNDERAGE = 18; // initialization
+
+const ANNUAL_LEAVE = "Dec";
+
+console.log(`Weekend is "${weekend}"`);
+
+var annual = 600;  // declare
+annual += 50
+annual = annual + 50
+console.log(annual);
+
+// variables without var
+
+fname = "Gero";
+console.log(fname);
+
+// multi var in same line
+var start_date = "2020-01-01",
+    end_date = "2022-12-31"
+
+console.log(`From '${start_date}' to '${end_date}'`);
+console.log(hi); // <h1 id="hi">Hello World!</h1>
+hi.innerHTML = "Love JS code;"
+
+
+
+
 

@@ -1,0 +1,16 @@
+1- What is var  ?
+    - it is container to store data to be processed.
+
+
+2- Syntax
+    - var VARNAME = VALUE
+    - var VARNAME ASSIGNMENT_OPERATOR VALUE
+
+3- Declare and init var
+
+4- multiple vars in the same line
+
+5- using vars from html ids
+
+6- Js is loosely type [ not strongly ] lang means it is smart enough to understand the type of value.
+
