@@ -9,6 +9,9 @@ console.log(DAYS);
 //
 // };
 
+// ============================== console methods =======================================================
+
+
 window.alert("Have a nice day!");
 document.write("<h1>JS is cool!</h1>", "<h1>Learn JS</h1>");
 console.log("Learn JS by example");
@@ -20,7 +23,24 @@ console.table([
     {"name": "Sara", "age": 21, "salary": 3000,},
 ])
 
-// directives
+
+// ============================== Directives ============================================================
+
+
 console.log("JS is %ccool", "color:red;");
 console.log("I %cLove %cJS", "color:red; font-size:30px;", "color:blue;font-size:40px;");
 
+let userName = "John";
+console.log("Hello " + userName);  // old code
+console.log(`Hello ${userName}`);  // ES6 code
+
+
+ // ============================== Easy String Concatenation ============================================
+
+
+let age = 10;
+let id = 2012030230;
+let firstname = "John", lastname = "Smith";
+
+let info = `Full name: ${firstname} ${lastname}\nID: ${id}\nAge: ${age}`;
+console.log(info);

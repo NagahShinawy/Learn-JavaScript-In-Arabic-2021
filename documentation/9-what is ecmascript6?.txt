@@ -1,0 +1,11 @@
+1- what is ES 6 ?
+
+Ecma : Ecma International is an industry association
+dedicated to the standardization of information and communication systems
+منطمة مسؤلة عن الرولز.
+
+- 6- is Ecma edition
+
+- Just like difference between py2, py3 , the same logic, adding new and easy lang feature.
+
+==============================================================================================================
