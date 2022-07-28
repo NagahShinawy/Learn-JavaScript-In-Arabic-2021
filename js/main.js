@@ -205,3 +205,37 @@ console.log(love + lang);
 document.write(love + lang + '<br>');
 document.write(love + " " + lang);
 console.log(love, lang); // We Love JS!
+
+// ============================== 16 - Template Literals Template Strings ====================================
+
+let a = "We Love";
+let b = "JavaScript";
+let c = "And";
+let d = "Programming";
+
+console.log(a + " " + b + " " + c + " " + d); // Es5 ( old style )
+console.log(`${a} ${b} ${c} ${d}`);
+console.log(`${a} ${b} \n${c} ${d}`);
+console.log(`${a} ${b}
+${c} ${d}`); // the same of \n
+
+console.log(`${a} ${b} "" ${c} ${d}`); // We Love JavaScript "" And Programming
+console.log(`${a} ${b} \" ${c} ${d}`); // We Love JavaScript " And Programming
+console.log(`${a} ${b} \ ${c} ${d}`); // We Love JavaScript  And Programming
+console.log(`${a} ${b} \\ ${c} ${d}`); // We Love JavaScript \ And Programming
+console.log(`${a} ${b} ${c} ${d}`);
+
+console.log(`Salary base is ${salary} with bonus ${salary + salary * 0.2}`)
+let title = 'JS Practical Course';
+let desc = "JS bootcamp from zero to expert";
+let markup = `
+  <div class="card">
+    <div class="child">
+      <h2 style="color:red;">${title}</h2>
+      <p style="color:blue;">${desc}</p>
+    </div>
+  </div>
+`;
+
+document.write(markup);
+
