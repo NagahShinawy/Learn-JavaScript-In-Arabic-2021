@@ -1,0 +1,36 @@
+1- console:
+    - The JavaScript console is a command line interface in your browser that can execute snippets of code
+    - The console object provides access to the browser's debugging console
+
+
+==============================================================================================================
+
+2- creating tabular data
+    - console.table(['John', "Smith", "Leon", "Eric"]);
+
+
+==============================================================================================================
+
+
+3- style message logs using 'directives'
+
+    - add '%c' before words that you want to style
+        console.log("JS is %ccool", "color:red;");
+
+    - using directives many times
+        console.log("I %cLove %cJS", "color:red; font-size:30px;", "color:blue;font-size:40px;");
+
+
+==============================================================================================================
+
+Web APIs
+
+When writing code for the Web, there are a large number of Web APIs available.
+Below is a list of all the APIs and interfaces (object types)
+that you may be able to use while developing your Web app or site.
+Web APIs are typically used with JavaScript, although this doesn't always have to be the case.
+
+
+==============================================================================================================
+
+
