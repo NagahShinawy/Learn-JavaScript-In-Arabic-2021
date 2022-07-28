@@ -174,3 +174,4 @@ console.log(window.work); // undefined
 
 const vacation = 'friday';
 console.log(window.vacation); // undefined
+// const vacation = 'test'; // Uncaught SyntaxError: Identifier 'vacation' has already been declared
