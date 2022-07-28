@@ -239,3 +239,33 @@ let markup = `
 
 document.write(markup);
 
+// ============================== 17 - Variable And Concatenation Challenge ====================================
+
+
+
+// ============================== 18 - Arithmetic Operators ====================================================
+
+
+console.log(10 + 20);
+console.log(10 + "JavaScript");
+
+console.log(10 - 20);
+console.log(10 - "JavaScript"); // NaN
+console.log(typeof NaN);
+
+console.log(10 * 20);
+console.log(10 * -20);
+
+console.log(20 / 5);
+console.log(20 / 3);
+console.log(Math.floor(20 / 3)); // to int
+console.log(2 ** 4);
+console.log(2 * 2 * 2 * 2);
+
+console.log(10 % 2);
+console.log(11 % 2); // Remove 1
+
+
+
+console.log((15.678).toFixed()) // 16
+console.log((15.678).toFixed(2)) // 15.68

@@ -1,0 +1,14 @@
+/*
+  Arithmetic Operators
+  + Addition
+  - Subtraction
+  * Multiplication
+  / Division
+  ** Exponentiation (ES7)
+  % Modulus (Division Remainder)
+  ++ Increment [ Post / Pre ]
+  -- Decrement [ Post / Pre ]
+*/
+
+console.log(10 - "JavaScript"); // NaN
+console.log(typeof NaN); !!!
