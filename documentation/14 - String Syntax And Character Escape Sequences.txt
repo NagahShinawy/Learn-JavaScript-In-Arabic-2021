@@ -1,0 +1,7 @@
+1- /*
+  String Syntax + Character Escape Sequences
+  \ Escape + Line Continue
+  \n
+*/
+
+2- https://www.ibm.com/docs/en/i/7.3?topic=set-escape-sequences

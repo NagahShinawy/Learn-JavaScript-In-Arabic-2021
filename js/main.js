@@ -11,7 +11,7 @@ console.log(DAYS);
 
 // ============================== console methods =======================================================
 
-
+// console.log(myname); // Uncaught ReferenceError: myname is not defined
 window.alert("Have a nice day!");
 document.write("<h1>JS is cool!</h1>", "<h1>Learn JS</h1>");
 console.log("Learn JS by example");
@@ -175,3 +175,22 @@ console.log(window.work); // undefined
 const vacation = 'friday';
 console.log(window.vacation); // undefined
 // const vacation = 'test'; // Uncaught SyntaxError: Identifier 'vacation' has already been declared
+
+
+// ============================== 14 - String Syntax And Character Escape Sequences ========================
+
+console.log("Learn JS by examples");
+console.log("Learn JS by 'examples'");
+console.log('Learn JS by "examples"');
+console.log("Learn JS by \"examples\"");
+console.log("Learn JS by \\ \"examples\"");
+console.log("Learn JS By\n\"examples\"");
+console.log("Learn " +
+    "JS " +
+    "By " +
+    "Example"); // Learn JS By Example
+
+console.log("Learn \
+JS \
+By \
+Example"); // Learn JS By Example
