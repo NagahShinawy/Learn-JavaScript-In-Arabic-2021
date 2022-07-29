@@ -269,3 +269,62 @@ console.log(11 % 2); // Remove 1
 
 console.log((15.678).toFixed()) // 16
 console.log((15.678).toFixed(2)) // 15.68
+
+
+// ==============================19 - Unary Plus And Negation Operators =======================================
+console.log(+100); // 100 number
+console.log(+"100") // 100 number
+console.log(+"-100") // -100 number
+console.log(+"test100") // NaN
+console.log(+"test") // NaN
+console.log(+"100.55") // 100.55 number
+console.log(+0xff) // 255 number  from Hex to decimal
+console.log(+0b101) // 5 number   from binary to decimal
+console.log(+null) // 0
+console.log(+false) // 0
+console.log(+true) // 1
+console.log("=======================================")
+console.log(-100); // -100 number
+console.log(-"100") // -100 number
+console.log(-"-100") // 100 number
+console.log(-"test100") // NaN
+console.log(-"test") // NaN
+console.log(-"100.55") // -100.55 number
+console.log(-0xff) // -255 number  from Hex to decimal
+console.log(-0b101) // -5 number   from binary to decimal
+console.log(-null) // -0
+console.log(-false) // -0
+console.log(-true) // -1
+
+// Casting using Number
+
+console.log(Number("243")); // 243 number
+console.log(Number("243") + 10); // 253 number
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

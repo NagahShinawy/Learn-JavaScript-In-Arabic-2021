@@ -1,0 +1,14 @@
+/*
+  - + Unary Plus [Return Number If It's Not Number]
+  - - Unary Negation [Return Number If It's Not Number + Negates It]
+  Tests
+  - Normal Number
+  - String Number
+  - String Negative Number
+  - String Text
+  - Float
+  - Hexadecimal Numeral System => 0xFF
+  - null
+  - false
+  - true
+*/
