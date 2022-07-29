@@ -348,10 +348,16 @@ console.log(tasks); // 3
 
 
 
-// ============================== =======================================
+// ==============================  23 - Number  ==============================================
 
-
-
+console.log(1000000);
+console.log(1_000_000);
+console.log(1e6); // 1 * 10 ^ 6 = 1000000 = 1M
+console.log(10 ** 6); // 1 * 10 ^ 6 = 1000000 = 1M
+console.log(1000000.00); // int number 1000000 NOT LIKE python
+console.log(Number.MAX_SAFE_INTEGER);
+console.log(Number.MAX_VALUE);
+console.log(Number.MAX_VALUE + 234234);
 
 // ==============================  =======================================
 

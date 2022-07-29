@@ -1,0 +1,15 @@
+/*
+  Number
+  - Double Precision
+  - Syntactic Sugar "_"
+  - e
+  - **
+  - With Decimal
+  - Number + BigInt
+  - Number Min Value
+  - Number Max Value
+*/
+
+2- JS Number.MAX_SAFE_INTEGER and MAX_VALUE?
+
+https://stackoverflow.com/questions/34799226/whats-the-difference-between-js-number-max-safe-integer-and-max-value
