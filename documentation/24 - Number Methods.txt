@@ -1,0 +1,10 @@
+/*
+  Number Methods
+  - Two Dots To Call A Methods
+  - toString()
+  - toFixed()
+  - parseInt()
+  - parseFloat()
+  - isInteger() [ES6]
+  - isNaN() [ES6]
+*/

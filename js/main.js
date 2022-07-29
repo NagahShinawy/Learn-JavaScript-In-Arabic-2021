@@ -359,11 +359,44 @@ console.log(Number.MAX_SAFE_INTEGER);
 console.log(Number.MAX_VALUE);
 console.log(Number.MAX_VALUE + 234234);
 
-// ==============================  =======================================
+// ==============================  24 - Number Methods  =======================================
 
+console.log((100).toString()) // "100"
+console.log(100..toString()) // "100"
+console.log(100.11.toString()) // "100.11"
+let x = 19;
+console.log(x.toString()) // "19"
 
+let wrong_answers = 56.87867868
+console.log(wrong_answers.toFixed(3)); //  56.879  // 3 means digits after point
+console.log(56.87867868.toFixed(3))
 
+// cast from string to number
 
+console.log(parseInt("100.9")) // 100
+console.log(parseInt("100")) // 100
+console.log(parseFloat("100")) // 100
+console.log(parseFloat("100.9")) // 100
+
+console.log(+"100") // 100
+console.log(Number("100")) // 100
+
+console.log(+"100 Osama") // Nan
+console.log(Number("100 Osama")) // Nan
+
+// include first number
+console.log(parseInt("100 Test")) // 100
+console.log(parseInt("100 Test 200")) // 100
+console.log(parseInt("Test 100 Test")) // NaN
+
+console.log(Number.isInteger("100")) // false
+console.log(Number.isInteger(100)) // true
+console.log(Number.isInteger(100.0)) // true
+console.log(Number.isInteger(100.1)) // false
+console.log(Number.isNaN(100.1)) // false
+console.log(Number.isNaN(100)) // false
+console.log(Number.isNaN("Test 100")) // false
+console.log(Number.isNaN("Test" / 100)) // true
 // ============================== =======================================
 
 
