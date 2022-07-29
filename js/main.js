@@ -302,7 +302,111 @@ console.log(Number("243")); // 243 number
 console.log(Number("243") + 10); // 253 number
 
 
+console.log("=======================================")
 
+
+// ==============================20 - Type Coercion =======================================
+let user_id = "100";
+let user_nid = 20;
+let empty = ""
+let is_active = true;
+
+console.log(user_id + user_nid) // string ---> 10020
+console.log(+user_id + user_nid) // number ---> 120
+console.log(Number(user_id) + user_nid) // number ---> 120
+console.log(user_id -  user_nid) // 80 number
+console.log(user_nid -  user_id) // -80 number
+console.log(user_nid - empty) // 20 number  ---> empty acts like 0
+console.log(user_nid + empty) // 20 string  ---> ---> empty acts like empty string actually
+console.log(user_nid + +empty) // 20 number  ---> empty converts to 0 after casting from string to 0 using +
+console.log(false - true) // 0 - 1 = -1 number
+console.log(false - -true) // 0 - -1 = 1 number
+console.log(user_id + is_active) // "100" + true == 100true string
+console.log(user_nid + is_active) // 20 + 1 == 21 number
+console.log(user_id + user_nid + is_active) // acts like "100" + "20" + "true" == 10020true string
+console.log(+user_id + user_nid + is_active) // 100 + 20 + 1 = 121 number
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ============================== =======================================
+
+
+
+
+// ============================== =======================================
+
+
+
+
+// ==============================  =======================================
+
+
+
+
+// ============================== =======================================
+
+
+
+// ==============================19 - Unary Plus And Negation Operators =======================================
+
+
+
+
+// ==============================19 - Unary Plus And Negation Operators =======================================
+
+
+
+
+// ==============================19 - Unary Plus And Negation Operators =======================================
+
+
+
+// ==============================19 - Unary Plus And Negation Operators =======================================
+
+
+
+
+// ==============================19 - Unary Plus And Negation Operators =======================================
+
+
+
+// ==============================19 - Unary Plus And Negation Operators =======================================
 
 
 

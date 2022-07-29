@@ -4,3 +4,12 @@
 4- what is variable scope drama
 5- console.log(10 - "JavaScript"); // NaN
    console.log(typeof NaN); !!!
+
+6- let a = "10"
+    let b = 20
+    a + b = 1020 string
+    a - b = 10 number
+
+ why not add in case of +
+ but sub in case of -
+ although 'a' is string in the two cases

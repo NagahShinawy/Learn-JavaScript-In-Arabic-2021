@@ -1,0 +1,7 @@
+/*
+  Type Coercion (Type Casting)
+  - +
+  - -
+  - "" - 2
+  - false - true
+*/
