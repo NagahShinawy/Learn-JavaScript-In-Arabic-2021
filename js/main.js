@@ -328,6 +328,22 @@ console.log(+user_id + user_nid + is_active) // 100 + 20 + 1 = 121 number
 
 
 
+// ==============================  21 - Assignment Operators =======================================
+
+let row = 10;
+row = row + 20 // 10 + 20
+console.log(row); // 30
+
+let cols = 5;
+cols = 7;
+console.log(cols);
+let tasks = 9
+tasks += 1 // tasks = tasks + 1 ---> tasks = 9 + 1 = 10
+console.log(tasks);
+tasks -= 4
+console.log(tasks); // 6
+tasks /= 2 // 6 / 2 = 3
+console.log(tasks); // 3
 
 
 
@@ -346,25 +362,6 @@ console.log(+user_id + user_nid + is_active) // 100 + 20 + 1 = 121 number
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// ============================== =======================================
 
 
 
