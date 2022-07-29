@@ -452,8 +452,34 @@ console.log(fullname.toLowerCase()) // all chars are lower
 console.log(search.trim().charAt(4).toUpperCase()) // T
 
 
-// ==============================19 - Unary Plus And Negation Operators =======================================
-
+// ============================== 28 - String Methods Part 2 =======================================
+let welcome = "Welcome to Js to be frontend"
+console.log(welcome.indexOf("o")) // 4
+console.log(welcome.indexOf("o", position=5)) // 9
+console.log(welcome.indexOf("e")) // 1
+console.log(welcome.indexOf("e", position=2)) // 6
+console.log(welcome.indexOf("come")) // 3
+console.log(welcome.indexOf("ciel")) // -1
+console.log(welcome.indexOf("to")) // 8
+console.log(welcome.lastIndexOf("to")) // 14
+console.log(welcome.slice(0)) // starts from index 0 to the end
+console.log(welcome.slice(2)) // start from index 2 to the end
+console.log(welcome.slice(2, 6)) // lcom from index 2 to before 6 [ not include 6 ] [ to 5 ]
+console.log(welcome.slice(-4)) // tend means from last 4 char to the end
+console.log(welcome.slice(-4, -1)) // ten means from last 4 char to last 1 char [ not include char of -1 ]
+console.log(welcome.slice(-1)) // last char d
+console.log(welcome[welcome.length - 1]) // last char d
+welcome +="|"
+console.log(welcome.repeat(2)); // Welcome to Js to be frontend|Welcome to Js to be frontend|
+console.log(welcome.repeat(2).slice(0, -1)); // Welcome to Js to be frontend|Welcome to Js to be frontend
+website = "https:www.courses/js/challenges/lesson1.txt"
+console.log(website.split("/"));  // ['https:www.courses', 'js', 'challenges', 'lesson1.txt']
+console.log(website.split("/").slice(-1));  // ['lesson1.txt']
+console.log(website.split("/").slice(-1)[0]);  // 'lesson1.txt'
+console.log(website.split(""));  // ['h', 't', 't', 'p', 's', ':', 'w', 'w', 'w', '.', 'c', 'o', 'u', 'r', 's', 'e', 's', '/', 'j', 's', '/', 'c', 'h', 'a', 'l', 'l', 'e', 'n', 'g', 'e', 's', '/', 'l', 'e', 's', 's', 'o', 'n', '1', '.', 't', 'x', 't']
+console.log(welcome.split(" "));  // ['Welcome', 'to', 'Js', 'to', 'be', 'frontend|']
+console.log(welcome.split(" ", 2));  // ['Welcome', 'to']
+console.log(welcome.split("", 7));  // ['W', 'e', 'l', 'c', 'o', 'm', 'e']
 
 
 
