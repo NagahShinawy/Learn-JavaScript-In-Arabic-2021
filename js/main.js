@@ -425,9 +425,31 @@ console.log(Math.trunc(32.45)) // 32 number
 
 
 
+// ============================== 27 - String Methods Part 1 =======================================
 
-// ==============================19 - Unary Plus And Negation Operators =======================================
 
+let fullname = "John Smith Leon";
+console.log(profile["name"]); // John
+console.log(profile["city"]); // Alex
+console.log(profile["test"]); // undefined
+
+console.log(fullname.charAt(6)) // m
+console.log(fullname.length) // 15
+console.log(fullname.charAt(14)) // n : last char
+console.log(fullname.charAt(15)) // empty string ""
+console.log(fullname[15]) // undefined
+showname = `
+<div style='color:green'>${fullname.charAt(15)}</div>
+`
+
+document.write(showname);
+let search = "  How to learn js   "
+
+console.log(search, search.length) // 20
+console.log(search.trim(), search.trim().length) // 15
+console.log(fullname.toUpperCase()) // all chars are UPPER
+console.log(fullname.toLowerCase()) // all chars are lower
+console.log(search.trim().charAt(4).toUpperCase()) // T
 
 
 // ==============================19 - Unary Plus And Negation Operators =======================================
