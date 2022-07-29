@@ -376,7 +376,7 @@ console.log(56.87867868.toFixed(3))
 console.log(parseInt("100.9")) // 100
 console.log(parseInt("100")) // 100
 console.log(parseFloat("100")) // 100
-console.log(parseFloat("100.9")) // 100
+console.log(parseFloat("100.9")) // 100.9
 
 console.log(+"100") // 100
 console.log(Number("100")) // 100
@@ -401,9 +401,24 @@ console.log(Number.isNaN("Test" / 100)) // true
 
 
 
-// ==============================19 - Unary Plus And Negation Operators =======================================
+// ==============================  25 - Math Object =======================================
 
+console.log(Math.round(99.2)) // 99
+console.log(Math.round(99.5)) // 100
+console.log(Math.round(99.6)) // 100 بيقرب على اساس الرقم العشرى
+console.log(Math.floor(88.7)) // 88 // بينزل بغض النظر عن الرقم العشرى
+console.log(Math.ceil(88.1)) //   89 بيزود بغض النظر عن الرقم العشرى
 
+console.log(Math.min(6, 5, 10, 3, 8, 9)) // 3
+console.log(Math.max(6, 5, 10, 3, 8, 9)) // 10
+console.log(Math.pow(2, 5)) // 32 = 2 ^ 5 = 2 ** 5
+console.log(2 ** 5) // 32 = 2 ^ 5 = 2 ** 5
+console.log(Math.random())
+console.log(Number("32.45")) // 32.45 number
+console.log(parseInt("32.45")) // 32 number
+console.log(parseFloat("32.45")) // 32.45 number
+console.log(Math.trunc("32.45")) // 32 number
+console.log(Math.trunc(32.45)) // 32 number
 
 
 // ==============================19 - Unary Plus And Negation Operators =======================================
