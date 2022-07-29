@@ -421,7 +421,7 @@ console.log(Math.trunc("32.45")) // 32 number
 console.log(Math.trunc(32.45)) // 32 number
 
 
-// ==============================19 - Unary Plus And Negation Operators =======================================
+// ============================== 26 - Number Challenge =======================================
 
 
 
