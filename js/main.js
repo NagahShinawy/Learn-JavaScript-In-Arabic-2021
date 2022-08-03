@@ -660,6 +660,26 @@ switch (day) {
         break;
 }
 
+// ============================== 40 - Array Big Introduction    =======================================
+console.log("*".repeat(50))
+
+let myFriends = ["Ahmed", "Mohamed", "Sayed", ["Marwan", "Ali"]];
+
+console.log(`Hello ${myFriends[0]}`);
+console.log(`Hello ${myFriends[2]}`);
+console.log(`${myFriends[1][2]}`);
+console.log(`Hello ${myFriends[3][1]}`);
+console.log(`${myFriends[3][1][2]}`);
+
+console.log(myFriends);
+myFriends[1] = "Gamal";
+console.log(myFriends);
+myFriends[3] = ["Sameh", "Ameer"];
+console.log(myFriends);
+let string = "test"
+console.log(Array.isArray(myFriends)); // true
+console.log(Array.isArray(string)); // false
+
 // ============================== 31 - Comparison Operators    =======================================
 
 
@@ -669,10 +689,7 @@ switch (day) {
 // ============================== 31 - Comparison Operators    =======================================
 
 
-// ============================== 31 - Comparison Operators    =======================================
-
-
-// ============================== 31 - Comparison Operators    =======================================
+// ============================== 40 - Array Big Introduction   =======================================
 
 
 // ============================== 31 - Comparison Operators    =======================================

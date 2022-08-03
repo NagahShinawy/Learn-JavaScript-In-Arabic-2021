@@ -16,3 +16,9 @@
 
 
  7- productPrice -= discountValue  + 30 ??
+
+ ===========================
+
+ 8 - ['Ahmed', 'Mohamed', 'Sayed', Array(2)]0: "Ahmed"1: "Gamal"2: "Sayed"3: (2) ['Sameh', 'Ameer']length: 4[[Prototype]]: Array(0)
+     main.js:676 (4) ['Ahmed', 'Gamal', 'Sayed', Array(2)]0: "Ahmed"1: "Gamal"2: "Sayed"3: (2) ['Sameh', 'Ameer']length: 4[[Prototype]]: Array(0)
+     main.js:678
