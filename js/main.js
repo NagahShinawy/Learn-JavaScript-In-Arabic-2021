@@ -472,7 +472,7 @@ console.log(welcome[welcome.length - 1]) // last char d
 welcome +="|"
 console.log(welcome.repeat(2)); // Welcome to Js to be frontend|Welcome to Js to be frontend|
 console.log(welcome.repeat(2).slice(0, -1)); // Welcome to Js to be frontend|Welcome to Js to be frontend
-website = "https:www.courses/js/challenges/lesson1.txt"
+website = "https:www.courses/js/challenges/lesson1.txt";
 console.log(website.split("/"));  // ['https:www.courses', 'js', 'challenges', 'lesson1.txt']
 console.log(website.split("/").slice(-1));  // ['lesson1.txt']
 console.log(website.split("/").slice(-1)[0]);  // 'lesson1.txt'
@@ -483,7 +483,16 @@ console.log(welcome.split("", 7));  // ['W', 'e', 'l', 'c', 'o', 'm', 'e']
 
 
 
-// ==============================19 - Unary Plus And Negation Operators =======================================
+// ============================== 29 - String Methods Part 3 =======================================
+
+let webAcademy = "Learn Js By Examples";
+
+console.log(webAcademy.substring(2)); // arn Js By Examples
+console.log(webAcademy.substring(2, 8)); // Learn
+console.log(webAcademy.substring(8, 2)); // Learn. Js swab numbers if end > start
+console.log(`Last char of [${webAcademy}] is [${webAcademy[webAcademy.length - 1]}]`);
+console.log(webAcademy.substr(3, 5)) // rn Js. starts from index 3 and takes 5 chars. 5 NOT index
+
 
 
 
