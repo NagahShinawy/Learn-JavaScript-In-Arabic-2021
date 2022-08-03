@@ -527,7 +527,26 @@ console.log(10 == "10" && 10 > 8 && 10 > 50); // false
 
 console.log(10 == "10" || 10 > 80 || 10 > 50); // true
 
-// ============================== 31 - Comparison Operators    =======================================
+// ============================== 33 - If Conditions   =======================================
+
+
+let price = 100;
+let discount = false;
+let discountAmount = 30;
+const COUNTRY = "KSA";
+
+        if (discount === true) {
+            price -= discountAmount; // price = price - discountAmount
+        }else if (COUNTRY === "Egypt") {
+            price -= 40;
+        }else if (COUNTRY === "Syria") {
+            price -= 50;
+        }else {
+            price -= 10;
+    }
+
+console.log(price);
+
 
 
 
