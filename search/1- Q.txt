@@ -13,3 +13,6 @@
  why not add in case of +
  but sub in case of -
  although 'a' is string in the two cases
+
+
+ 7- productPrice -= discountValue  + 30 ??

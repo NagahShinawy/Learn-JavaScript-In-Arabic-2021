@@ -550,7 +550,37 @@ console.log(price);
 
 
 
-// ============================== 31 - Comparison Operators    =======================================
+// ============================== 34 - Nested If Conditions   =======================================
+
+
+let productPrice = 100;
+let hasDiscount = false;
+let discountValue = 30;
+let country = "Egypt";
+let isStudent = true;
+
+if (hasDiscount === true) {
+
+    productPrice -= discountValue;
+
+} else if (country === "Egypt") {
+
+    if (isStudent === true) {
+        productPrice -= discountValue  + 30;
+
+    } else {
+
+        productPrice -= discountValue + 10;
+
+    }
+
+} else {
+
+    productPrice -= 10;
+
+}
+
+console.log(productPrice);
 
 
 
