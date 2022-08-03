@@ -692,7 +692,24 @@ console.log(friends[5]); // undefined
 
 // ============================== 31 - Comparison Operators    =======================================
 
+console.log("*" * 50)
 
+let friendsNames = ["Ahmed", "Mohamed", "Sayed", "Alaa"];
+
+console.log(friendsNames);
+console.log(friendsNames[4])
+friendsNames.unshift("Osama", "Nabil");
+console.log(friendsNames);
+friendsNames.push("Samah", "Eman");
+console.log(friendsNames);
+let first = friendsNames.shift();
+
+console.log(first);
+console.log(friendsNames);
+
+let last = friendsNames.pop();
+
+console.log(last);
 // ============================== 31 - Comparison Operators    =======================================
 
 
