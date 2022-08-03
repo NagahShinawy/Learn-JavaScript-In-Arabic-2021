@@ -640,9 +640,25 @@ console.log(Boolean(0)) // false
 console.log(Boolean(null)) // false
 console.log(Boolean(undefined)) // false
 
-// ============================== 31 - Comparison Operators    =======================================
+// ============================== 38 - Switch Statement    =======================================
 
+let day = 10;
 
+switch (day) {
+    default:
+        console.log("Unknown Day");
+        // break;
+    case 0:
+        console.log("Saturday");
+        // break;
+    case 1:
+        console.log("Sunday");
+        break;
+    case 2:
+    case 3:
+        console.log("Monday");
+        break;
+}
 
 // ============================== 31 - Comparison Operators    =======================================
 
