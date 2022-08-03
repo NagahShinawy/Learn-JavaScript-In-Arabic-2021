@@ -623,9 +623,22 @@ let isMale = 1;
 let gender = isMale ? "Male": "Female";
 console.log(gender);
 console.log(`Hello ${theGender === 'Male'? "Mrs": "Ms"}, ${theName}`);
-// ============================== 31 - Comparison Operators    =======================================
+// ============================== 36 - Nullish Coalescing Operator & Logical Or   =======================================
 
-
+let amount = 100;
+let priceValue;
+let sales = 0
+console.log(`The amount is ${amount}`);
+console.log(`The Price is ${priceValue}`); // undefined
+console.log(`The sales is ${sales}`); // null
+console.log(`The sales is ${sales || 200}`); // 200 return 200 in case of any falsy value("", 0, null, undefined, false )of sales
+console.log(`The sales is ${sales ?? 200}`); // 200 return 200 in case of (null, undefined ) only
+console.log(Boolean(100)) // true
+console.log(Boolean(-100)) // true
+console.log(Boolean(-"100")) // true
+console.log(Boolean(0)) // false
+console.log(Boolean(null)) // false
+console.log(Boolean(undefined)) // false
 
 // ============================== 31 - Comparison Operators    =======================================
 
