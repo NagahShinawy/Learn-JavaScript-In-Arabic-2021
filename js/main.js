@@ -680,8 +680,15 @@ let string = "test"
 console.log(Array.isArray(myFriends)); // true
 console.log(Array.isArray(string)); // false
 
-// ============================== 31 - Comparison Operators    =======================================
+// ============================== 41 - Using Length With Array   =======================================
+let friends = ["Ahmed", "Mohamed", "Sayed", "Alaa"];
 
+console.log(friends);
+
+friends.length = 2;
+
+console.log(friends, friends.length);
+console.log(friends[5]); // undefined
 
 // ============================== 31 - Comparison Operators    =======================================
 
