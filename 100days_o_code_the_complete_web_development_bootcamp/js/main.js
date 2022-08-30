@@ -1,4 +1,5 @@
 import {Random} from "./random.js";
+
 console.log("Hello!");
 let welcome = "Hello JS";
 // alert("Js Bootcamp");
@@ -50,3 +51,19 @@ console.log(profile);
 console.log(profile.username);
 console.log(profile.job.salary);
 console.log(profile.job.company);
+let info = "My Name is John" +
+    "age is 30"
+
+console.log(info) // My Name is Johnage is 30
+
+info = `My Name is John
+
+age is 30
+`
+
+// ******************************************************************************* //
+
+
+console.log(info) // My Name is John
+
+// age is 30
