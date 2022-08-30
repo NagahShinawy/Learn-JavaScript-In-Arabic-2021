@@ -1,6 +1,6 @@
 import {IndexError} from './errors.js';
 
-class Random {
+export class Random {
     EMPTY = 0;
     choice(items){
         if (items.length === this.EMPTY){
